@@ -1,8 +1,4 @@
-# react-richtexteditor-webmail
-This repository demonstrates the integration of the Syncfusion EJ2 Rich Text Editor within a webmail application built using React. It serves as a practical example showcasing rich text editing capabilities, email composition workflows, and seamless integration with modern React applications.
-
-
-# Mail Application - Complete Setup & Implementation Guide
+# React Web Mail Application - Complete Setup & Implementation Guide
 
 A production-ready webmail application built with **React (Frontend)** and **Fastify + PostgreSQL (Backend)**, integrated with **Microsoft Graph API** for email synchronization and real-time updates.
 

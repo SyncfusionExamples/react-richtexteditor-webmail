@@ -1,0 +1,39 @@
+/* filepath: my-app/src/App.css */
+
+/* Hide the Syncfusion Uploader's default UI - we render our own.
+   We keep the component mounted (and its drop target) but make it
+   invisible. */
+.hidden-uploader.e-upload {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+}
+
+.hidden-uploader.e-upload .e-upload-files {
+  display: none !important;
+}
+
+.hidden-uploader.e-upload .e-upload-browse-btn,
+.hidden-uploader.e-upload .e-upload-clear-btn,
+.hidden-uploader.e-upload .e-upload-action {
+  display: none !important;
+}
+
+/* Keep the file input accessible to the triggerBrowse click handler */
+.hidden-uploader.e-upload input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Drop area only - allow drag/drop but don't show borders/buttons */
+.hidden-uploader.e-upload .e-upload-drop-area {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+}
